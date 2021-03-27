@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 227643800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "BasicStepDefination.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Test login functionality of an Application",
+        "description": "",
+        "id": "to-test-login-functionality;test-login-functionality-of-an-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4764100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs userId as \u0027abcd\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027abcd\u0027",
+                  "offset": 22
+                }
+              ],
+              "location": "BasicStepDefination.userInputsUserId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "inputs password as \u00271234\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271234\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "BasicStepDefination.inputsPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "hits submit button",
+            "match": {
+              "location": "BasicStepDefination.hitsSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user lands on dashboard page",
+            "match": {
+              "location": "BasicStepDefination.userLandsOnDashboardPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test Login Functionality",
+    "description": "",
+    "id": "to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Projects/src/test/java/org/example/myListener/features/WebLogin.feature"
+  }
+]
